@@ -1,0 +1,29 @@
+name: karina_plokhuta
+services:
+  db:
+    image: postgres:16-alpine@sha256:cf78e76683b9ca8c5733cbbdce6c9262b45b6767934dd0a95e671f9a0fc20685
+    environment:
+      POSTGRES_USER: app
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-changeme}
+      POSTGRES_DB: karina_plokhuta
+    ports:
+      - "127.0.0.1:25433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U app -d karina_plokhuta"]
+      interval: 2s
+      timeout: 3s
+      retries: 30
+  api:
+    build: .
+    environment:
+      DATABASE_URL: postgresql://app:${POSTGRES_PASSWORD:-changeme}@db:5432/karina_plokhuta
+      DB_SCHEMA: karina_plokhuta
+    ports:
+      - "127.0.0.1:20803:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+volumes:
+  pgdata:
