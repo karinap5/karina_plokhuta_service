@@ -1,0 +1,96 @@
+{
+  "small": {
+    "first": {
+      "accounts": {
+        "count": 1,
+        "md5": "8da895136a627ec80b70337de5edcbbb"
+      },
+      "services": {
+        "count": 10,
+        "md5": "9425df18bf9c7536f4eb60b54df48916"
+      },
+      "specialists": {
+        "count": 10,
+        "md5": "18bf810128e99c6e4929e1a4e742204b"
+      },
+      "slots": {
+        "count": 500,
+        "md5": "49538561f76cf991b8b117fdbb063f53"
+      },
+      "appointments": {
+        "count": 300,
+        "md5": "82930915d762246dcd621ce5a36f8669"
+      }
+    },
+    "second": {
+      "accounts": {
+        "count": 1,
+        "md5": "8da895136a627ec80b70337de5edcbbb"
+      },
+      "services": {
+        "count": 10,
+        "md5": "9425df18bf9c7536f4eb60b54df48916"
+      },
+      "specialists": {
+        "count": 10,
+        "md5": "18bf810128e99c6e4929e1a4e742204b"
+      },
+      "slots": {
+        "count": 500,
+        "md5": "49538561f76cf991b8b117fdbb063f53"
+      },
+      "appointments": {
+        "count": 300,
+        "md5": "82930915d762246dcd621ce5a36f8669"
+      }
+    },
+    "equal": true
+  },
+  "working": {
+    "first": {
+      "accounts": {
+        "count": 1,
+        "md5": "8da895136a627ec80b70337de5edcbbb"
+      },
+      "services": {
+        "count": 30,
+        "md5": "7ec24a693acb44be8206069a48e528fb"
+      },
+      "specialists": {
+        "count": 200,
+        "md5": "7121cdcfee3b7e615f0f3cc0d3e9e7e9"
+      },
+      "slots": {
+        "count": 200000,
+        "md5": "0fa93b2a058caaf2ddb5038b75149558"
+      },
+      "appointments": {
+        "count": 50000,
+        "md5": "e4fed10853cdb5ed12e6be554c281779"
+      }
+    },
+    "second": {
+      "accounts": {
+        "count": 1,
+        "md5": "8da895136a627ec80b70337de5edcbbb"
+      },
+      "services": {
+        "count": 30,
+        "md5": "7ec24a693acb44be8206069a48e528fb"
+      },
+      "specialists": {
+        "count": 200,
+        "md5": "7121cdcfee3b7e615f0f3cc0d3e9e7e9"
+      },
+      "slots": {
+        "count": 200000,
+        "md5": "0fa93b2a058caaf2ddb5038b75149558"
+      },
+      "appointments": {
+        "count": 50000,
+        "md5": "e4fed10853cdb5ed12e6be554c281779"
+      }
+    },
+    "equal": true
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "source_sha256": {
+    "app/db.py": "10ffe898340ad3812d6965f33b15f8bebe0571265aa3f17df0ca3eccf6553e63",
+    "app/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "app/rules.py": "7254a575508d73ac3cd3f85f2a942ef0e4e43d75e5bb75d7b9f9c00bcc7367ca",
+    "app/main.py": "1f82e2a6ec406926d3f3ee0778404dc0906ef336999833bb4d4b3c1c20434d95",
+    "app/setup_db.py": "2b8cda584f7fb4fc33a33971ccc06a2bf785faa668135d42fd43701cd6473065"
+  },
+  "host": {
+    "machine": "MacBook Air",
+    "cpu": "Apple M5",
+    "ram_gb": 16,
+    "os": "macOS 26.6.2"
+  },
+  "docker": {
+    "version": "29.7.2",
+    "vm_cpu_count": 10,
+    "vm_memory_bytes": 8319504384
+  },
+  "server_mode": "Python 3.12.14 host, one Uvicorn worker; PostgreSQL 16.15 Docker",
+  "note": "Both benchmark volumes used these same server sources. Other lab containers were running throughout. Docker API deployment separately passed 30 tests."
+}

@@ -1,0 +1,2426 @@
+{
+  "volume": "working",
+  "account": "demo",
+  "warmup": 1,
+  "repeats": 20,
+  "time_utc": "2026-10-11T17:05:52.294075+00:00",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "python": "3.12.14",
+  "postgres": "PostgreSQL 16.15 on aarch64-unknown-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit",
+  "counts_before": {
+    "accounts": 1,
+    "services": 30,
+    "specialists": 200,
+    "slots": 200000,
+    "appointments": 50000
+  },
+  "operations": {
+    "auth": {
+      "method": "GET",
+      "path": "/api/auth",
+      "params": null,
+      "samples": [
+        {
+          "client_ms": 15.985833015292883,
+          "server_ms": 15.2648,
+          "db_ms": 0.9993,
+          "app_ms": 14.2656,
+          "connect_ms": 5.0872,
+          "transaction_ms": 0.2448,
+          "queries": 1,
+          "bytes": 26,
+          "status": 200
+        },
+        {
+          "client_ms": 15.274250006768852,
+          "server_ms": 14.7199,
+          "db_ms": 0.9303,
+          "app_ms": 13.7895,
+          "connect_ms": 4.6917,
+          "transaction_ms": 0.2318,
+          "queries": 1,
+          "bytes": 26,
+          "status": 200
+        },
+        {
+          "client_ms": 14.670959033537656,
+          "server_ms": 14.1269,
+          "db_ms": 0.9447,
+          "app_ms": 13.1822,
+          "connect_ms": 4.3777,
+          "transaction_ms": 0.2318,
+          "queries": 1,
+          "bytes": 26,
+          "status": 200
+        },
+        {
+          "client_ms": 14.787332969717681,
+          "server_ms": 14.2612,
+          "db_ms": 0.9918,
+          "app_ms": 13.2694,
+          "connect_ms": 4.7117,
+          "transaction_ms": 0.2321,
+          "queries": 1,
+          "bytes": 26,
+          "status": 200
+        },
+        {
+          "client_ms": 13.894999981857836,
+          "server_ms": 13.3688,
+          "db_ms": 0.8197,
+          "app_ms": 12.5491,
+          "connect_ms": 4.332,
+          "transaction_ms": 0.2151,
+          "queries": 1,
+          "bytes": 26,
+          "status": 200
+        },
+        {
+          "client_ms": 13.767040974926203,
+          "server_ms": 13.2197,
+          "db_ms": 0.7867,
+          "app_ms": 12.433,
+          "connect_ms": 4.1553,
+          "transaction_ms": 0.2081,
+          "queries": 1,
+          "bytes": 26,
+          "status": 200
+        },
+        {
+          "client_ms": 14.111042022705078,
+          "server_ms": 13.5423,
+          "db_ms": 0.9012,
+          "app_ms": 12.6412,
+          "connect_ms": 4.3432,
+          "transaction_ms": 0.2839,
+          "queries": 1,
+          "bytes": 26,
+          "status": 200
+        },
+        {
+          "client_ms": 13.801916036754847,
+          "server_ms": 13.2865,
+          "db_ms": 0.9107,
+          "app_ms": 12.3758,
+          "connect_ms": 4.3885,
+          "transaction_ms": 0.2041,
+          "queries": 1,
+          "bytes": 26,
+          "status": 200
+        },
+        {
+          "client_ms": 13.235374994110316,
+          "server_ms": 12.7888,
+          "db_ms": 0.8817,
+          "app_ms": 11.9071,
+          "connect_ms": 4.1469,
+          "transaction_ms": 0.2384,
+          "queries": 1,
+          "bytes": 26,
+          "status": 200
+        },
+        {
+          "client_ms": 13.103874982334673,
+          "server_ms": 12.6036,
+          "db_ms": 0.8262,
+          "app_ms": 11.7775,
+          "connect_ms": 3.76,
+          "transaction_ms": 0.2582,
+          "queries": 1,
+          "bytes": 26,
+          "status": 200
+        },
+        {
+          "client_ms": 13.094333000481129,
+          "server_ms": 12.5795,
+          "db_ms": 0.9386,
+          "app_ms": 11.6409,
+          "connect_ms": 4.0001,
+          "transaction_ms": 0.224,
+          "queries": 1,
+          "bytes": 26,
+          "status": 200
+        },
+        {
+          "client_ms": 12.792999972589314,
+          "server_ms": 12.2971,
+          "db_ms": 0.8198,
+          "app_ms": 11.4773,
+          "connect_ms": 3.9633,
+          "transaction_ms": 0.2152,
+          "queries": 1,
+          "bytes": 26,
+          "status": 200
+        },
+        {
+          "client_ms": 13.10587499756366,
+          "server_ms": 12.6454,
+          "db_ms": 0.9023,
+          "app_ms": 11.7432,
+          "connect_ms": 4.1987,
+          "transaction_ms": 0.2094,
+          "queries": 1,
+          "bytes": 26,
+          "status": 200
+        },
+        {
+          "client_ms": 13.2294159848243,
+          "server_ms": 12.7994,
+          "db_ms": 0.9191,
+          "app_ms": 11.8803,
+          "connect_ms": 3.9793,
+          "transaction_ms": 0.2114,
+          "queries": 1,
+          "bytes": 26,
+          "status": 200
+        },
+        {
+          "client_ms": 12.68904097378254,
+          "server_ms": 12.2424,
+          "db_ms": 0.8803,
+          "app_ms": 11.3621,
+          "connect_ms": 3.8034,
+          "transaction_ms": 0.2069,
+          "queries": 1,
+          "bytes": 26,
+          "status": 200
+        },
+        {
+          "client_ms": 12.903499999083579,
+          "server_ms": 12.4441,
+          "db_ms": 0.8089,
+          "app_ms": 11.6352,
+          "connect_ms": 4.0222,
+          "transaction_ms": 0.2303,
+          "queries": 1,
+          "bytes": 26,
+          "status": 200
+        },
+        {
+          "client_ms": 13.376625021919608,
+          "server_ms": 12.9607,
+          "db_ms": 0.8185,
+          "app_ms": 12.1422,
+          "connect_ms": 3.9069,
+          "transaction_ms": 0.3215,
+          "queries": 1,
+          "bytes": 26,
+          "status": 200
+        },
+        {
+          "client_ms": 12.695791956502944,
+          "server_ms": 12.2644,
+          "db_ms": 0.906,
+          "app_ms": 11.3584,
+          "connect_ms": 3.8818,
+          "transaction_ms": 0.2125,
+          "queries": 1,
+          "bytes": 26,
+          "status": 200
+        },
+        {
+          "client_ms": 12.677791994065046,
+          "server_ms": 12.2592,
+          "db_ms": 0.8709,
+          "app_ms": 11.3883,
+          "connect_ms": 3.845,
+          "transaction_ms": 0.2297,
+          "queries": 1,
+          "bytes": 26,
+          "status": 200
+        },
+        {
+          "client_ms": 13.025208027102053,
+          "server_ms": 12.5544,
+          "db_ms": 0.9206,
+          "app_ms": 11.6338,
+          "connect_ms": 3.6027,
+          "transaction_ms": 0.1875,
+          "queries": 1,
+          "bytes": 26,
+          "status": 200
+        }
+      ],
+      "summary": {
+        "client_ms": {
+          "p50": 13.232395489467308,
+          "p95": 15.274250006768852,
+          "max": 15.985833015292883
+        },
+        "server_ms": {
+          "p50": 12.7941,
+          "p95": 14.7199,
+          "max": 15.2648
+        },
+        "db_ms": {
+          "p50": 0.90175,
+          "p95": 0.9918,
+          "max": 0.9993
+        },
+        "app_ms": {
+          "p50": 11.893699999999999,
+          "p95": 13.7895,
+          "max": 14.2656
+        },
+        "connect_ms": {
+          "p50": 4.08455,
+          "p95": 4.7117,
+          "max": 5.0872
+        },
+        "transaction_ms": {
+          "p50": 0.22685,
+          "p95": 0.2839,
+          "max": 0.3215
+        },
+        "queries": [
+          1
+        ]
+      }
+    },
+    "services": {
+      "method": "GET",
+      "path": "/api/services",
+      "params": null,
+      "samples": [
+        {
+          "client_ms": 18.497916986234486,
+          "server_ms": 17.9901,
+          "db_ms": 1.8265,
+          "app_ms": 16.1636,
+          "connect_ms": 8.0079,
+          "transaction_ms": 0.4443,
+          "queries": 2,
+          "bytes": 1703,
+          "status": 200
+        },
+        {
+          "client_ms": 18.181457999162376,
+          "server_ms": 17.7015,
+          "db_ms": 1.9003,
+          "app_ms": 15.8012,
+          "connect_ms": 7.8022,
+          "transaction_ms": 0.4601,
+          "queries": 2,
+          "bytes": 1703,
+          "status": 200
+        },
+        {
+          "client_ms": 17.748915997799486,
+          "server_ms": 17.2608,
+          "db_ms": 1.7426,
+          "app_ms": 15.5182,
+          "connect_ms": 7.4579,
+          "transaction_ms": 0.5185,
+          "queries": 2,
+          "bytes": 1703,
+          "status": 200
+        },
+        {
+          "client_ms": 18.214415991678834,
+          "server_ms": 17.7517,
+          "db_ms": 1.9263,
+          "app_ms": 15.8253,
+          "connect_ms": 7.9617,
+          "transaction_ms": 0.4213,
+          "queries": 2,
+          "bytes": 1703,
+          "status": 200
+        },
+        {
+          "client_ms": 17.403249978087842,
+          "server_ms": 16.9364,
+          "db_ms": 1.7156,
+          "app_ms": 15.2207,
+          "connect_ms": 7.3481,
+          "transaction_ms": 0.4075,
+          "queries": 2,
+          "bytes": 1703,
+          "status": 200
+        },
+        {
+          "client_ms": 19.189917016774416,
+          "server_ms": 18.598,
+          "db_ms": 2.0875,
+          "app_ms": 16.5106,
+          "connect_ms": 8.0911,
+          "transaction_ms": 0.4571,
+          "queries": 2,
+          "bytes": 1703,
+          "status": 200
+        },
+        {
+          "client_ms": 19.10416700411588,
+          "server_ms": 18.3312,
+          "db_ms": 2.0592,
+          "app_ms": 16.272,
+          "connect_ms": 8.1987,
+          "transaction_ms": 0.4877,
+          "queries": 2,
+          "bytes": 1703,
+          "status": 200
+        },
+        {
+          "client_ms": 18.058916029985994,
+          "server_ms": 17.4735,
+          "db_ms": 1.8665,
+          "app_ms": 15.607,
+          "connect_ms": 7.6183,
+          "transaction_ms": 0.4931,
+          "queries": 2,
+          "bytes": 1703,
+          "status": 200
+        },
+        {
+          "client_ms": 18.98112497292459,
+          "server_ms": 18.4569,
+          "db_ms": 2.2015,
+          "app_ms": 16.2553,
+          "connect_ms": 8.0261,
+          "transaction_ms": 0.3879,
+          "queries": 2,
+          "bytes": 1703,
+          "status": 200
+        },
+        {
+          "client_ms": 18.667042022570968,
+          "server_ms": 18.1494,
+          "db_ms": 2.0874,
+          "app_ms": 16.062,
+          "connect_ms": 7.9515,
+          "transaction_ms": 0.4315,
+          "queries": 2,
+          "bytes": 1703,
+          "status": 200
+        },
+        {
+          "client_ms": 18.487750028725713,
+          "server_ms": 17.9811,
+          "db_ms": 1.8065,
+          "app_ms": 16.1746,
+          "connect_ms": 7.9896,
+          "transaction_ms": 0.3932,
+          "queries": 2,
+          "bytes": 1703,
+          "status": 200
+        },
+        {
+          "client_ms": 18.226458050776273,
+          "server_ms": 17.7154,
+          "db_ms": 1.7809,
+          "app_ms": 15.9345,
+          "connect_ms": 7.9346,
+          "transaction_ms": 0.3993,
+          "queries": 2,
+          "bytes": 1703,
+          "status": 200
+        },
+        {
+          "client_ms": 19.576708029489964,
+          "server_ms": 19.0662,
+          "db_ms": 2.12,
+          "app_ms": 16.9461,
+          "connect_ms": 8.7336,
+          "transaction_ms": 0.4076,
+          "queries": 2,
+          "bytes": 1703,
+          "status": 200
+        },
+        {
+          "client_ms": 18.941165995784104,
+          "server_ms": 18.4027,
+          "db_ms": 2.0337,
+          "app_ms": 16.369,
+          "connect_ms": 8.192,
+          "transaction_ms": 0.4983,
+          "queries": 2,
+          "bytes": 1703,
+          "status": 200
+        },
+        {
+          "client_ms": 18.623791984282434,
+          "server_ms": 18.0814,
+          "db_ms": 1.9283,
+          "app_ms": 16.1531,
+          "connect_ms": 7.9927,
+          "transaction_ms": 0.4026,
+          "queries": 2,
+          "bytes": 1703,
+          "status": 200
+        },
+        {
+          "client_ms": 18.433416029438376,
+          "server_ms": 17.9104,
+          "db_ms": 2.0095,
+          "app_ms": 15.9009,
+          "connect_ms": 7.745,
+          "transaction_ms": 0.514,
+          "queries": 2,
+          "bytes": 1703,
+          "status": 200
+        },
+        {
+          "client_ms": 18.580292002297938,
+          "server_ms": 18.0833,
+          "db_ms": 1.8869,
+          "app_ms": 16.1964,
+          "connect_ms": 8.0902,
+          "transaction_ms": 0.4573,
+          "queries": 2,
+          "bytes": 1703,
+          "status": 200
+        },
+        {
+          "client_ms": 18.013165972661227,
+          "server_ms": 17.523,
+          "db_ms": 1.8308,
+          "app_ms": 15.6921,
+          "connect_ms": 7.6197,
+          "transaction_ms": 0.4515,
+          "queries": 2,
+          "bytes": 1703,
+          "status": 200
+        },
+        {
+          "client_ms": 18.282541015651077,
+          "server_ms": 17.7988,
+          "db_ms": 1.8034,
+          "app_ms": 15.9954,
+          "connect_ms": 7.9162,
+          "transaction_ms": 0.4968,
+          "queries": 2,
+          "bytes": 1703,
+          "status": 200
+        },
+        {
+          "client_ms": 17.41158397635445,
+          "server_ms": 16.925,
+          "db_ms": 1.7029,
+          "app_ms": 15.2221,
+          "connect_ms": 7.2814,
+          "transaction_ms": 0.4355,
+          "queries": 2,
+          "bytes": 1703,
+          "status": 200
+        }
+      ],
+      "summary": {
+        "client_ms": {
+          "p50": 18.460583029082045,
+          "p95": 19.189917016774416,
+          "max": 19.576708029489964
+        },
+        "server_ms": {
+          "p50": 17.94575,
+          "p95": 18.598,
+          "max": 19.0662
+        },
+        "db_ms": {
+          "p50": 1.8936000000000002,
+          "p95": 2.12,
+          "max": 2.2015
+        },
+        "app_ms": {
+          "p50": 16.0287,
+          "p95": 16.5106,
+          "max": 16.9461
+        },
+        "connect_ms": {
+          "p50": 7.9566,
+          "p95": 8.1987,
+          "max": 8.7336
+        },
+        "transaction_ms": {
+          "p50": 0.44789999999999996,
+          "p95": 0.514,
+          "max": 0.5185
+        },
+        "queries": [
+          2
+        ]
+      }
+    },
+    "specialists": {
+      "method": "GET",
+      "path": "/api/specialists",
+      "params": {
+        "service_id": 1
+      },
+      "samples": [
+        {
+          "client_ms": 18.53649999247864,
+          "server_ms": 18.0211,
+          "db_ms": 2.2325,
+          "app_ms": 15.7887,
+          "connect_ms": 7.5946,
+          "transaction_ms": 0.463,
+          "queries": 3,
+          "bytes": 421,
+          "status": 200
+        },
+        {
+          "client_ms": 18.665166979189962,
+          "server_ms": 18.18,
+          "db_ms": 2.2569,
+          "app_ms": 15.9231,
+          "connect_ms": 7.5459,
+          "transaction_ms": 0.4041,
+          "queries": 3,
+          "bytes": 421,
+          "status": 200
+        },
+        {
+          "client_ms": 18.101458030287176,
+          "server_ms": 17.6025,
+          "db_ms": 2.1444,
+          "app_ms": 15.4582,
+          "connect_ms": 7.4664,
+          "transaction_ms": 0.4343,
+          "queries": 3,
+          "bytes": 421,
+          "status": 200
+        },
+        {
+          "client_ms": 18.6603749752976,
+          "server_ms": 18.0671,
+          "db_ms": 2.2174,
+          "app_ms": 15.8497,
+          "connect_ms": 7.8271,
+          "transaction_ms": 0.4812,
+          "queries": 3,
+          "bytes": 421,
+          "status": 200
+        },
+        {
+          "client_ms": 18.701458000577986,
+          "server_ms": 18.1212,
+          "db_ms": 2.2152,
+          "app_ms": 15.9061,
+          "connect_ms": 7.9374,
+          "transaction_ms": 0.4597,
+          "queries": 3,
+          "bytes": 421,
+          "status": 200
+        },
+        {
+          "client_ms": 20.6554580363445,
+          "server_ms": 20.1075,
+          "db_ms": 4.3739,
+          "app_ms": 15.7337,
+          "connect_ms": 7.7155,
+          "transaction_ms": 0.4885,
+          "queries": 3,
+          "bytes": 421,
+          "status": 200
+        },
+        {
+          "client_ms": 18.85429199319333,
+          "server_ms": 17.93,
+          "db_ms": 2.2299,
+          "app_ms": 15.7001,
+          "connect_ms": 7.7466,
+          "transaction_ms": 0.4393,
+          "queries": 3,
+          "bytes": 421,
+          "status": 200
+        },
+        {
+          "client_ms": 18.244957958813757,
+          "server_ms": 17.7008,
+          "db_ms": 2.2315,
+          "app_ms": 15.4693,
+          "connect_ms": 7.5414,
+          "transaction_ms": 0.4742,
+          "queries": 3,
+          "bytes": 421,
+          "status": 200
+        },
+        {
+          "client_ms": 17.983458004891872,
+          "server_ms": 17.4582,
+          "db_ms": 2.1092,
+          "app_ms": 15.349,
+          "connect_ms": 7.501,
+          "transaction_ms": 0.4612,
+          "queries": 3,
+          "bytes": 421,
+          "status": 200
+        },
+        {
+          "client_ms": 17.76687504025176,
+          "server_ms": 17.3052,
+          "db_ms": 2.2037,
+          "app_ms": 15.1016,
+          "connect_ms": 7.2785,
+          "transaction_ms": 0.4617,
+          "queries": 3,
+          "bytes": 421,
+          "status": 200
+        },
+        {
+          "client_ms": 18.26550002442673,
+          "server_ms": 17.7619,
+          "db_ms": 2.2043,
+          "app_ms": 15.5575,
+          "connect_ms": 7.1643,
+          "transaction_ms": 0.4369,
+          "queries": 3,
+          "bytes": 421,
+          "status": 200
+        },
+        {
+          "client_ms": 17.686458013486117,
+          "server_ms": 17.2124,
+          "db_ms": 2.1333,
+          "app_ms": 15.0791,
+          "connect_ms": 7.1558,
+          "transaction_ms": 0.4297,
+          "queries": 3,
+          "bytes": 421,
+          "status": 200
+        },
+        {
+          "client_ms": 17.82766601536423,
+          "server_ms": 17.3209,
+          "db_ms": 2.138,
+          "app_ms": 15.1829,
+          "connect_ms": 7.3602,
+          "transaction_ms": 0.4868,
+          "queries": 3,
+          "bytes": 421,
+          "status": 200
+        },
+        {
+          "client_ms": 19.772542000282556,
+          "server_ms": 19.2393,
+          "db_ms": 2.2602,
+          "app_ms": 16.9791,
+          "connect_ms": 8.9112,
+          "transaction_ms": 0.4263,
+          "queries": 3,
+          "bytes": 421,
+          "status": 200
+        },
+        {
+          "client_ms": 19.20300000347197,
+          "server_ms": 18.6705,
+          "db_ms": 2.2065,
+          "app_ms": 16.464,
+          "connect_ms": 8.3928,
+          "transaction_ms": 0.4367,
+          "queries": 3,
+          "bytes": 421,
+          "status": 200
+        },
+        {
+          "client_ms": 18.751249997876585,
+          "server_ms": 18.2118,
+          "db_ms": 2.2052,
+          "app_ms": 16.0065,
+          "connect_ms": 7.9713,
+          "transaction_ms": 0.4408,
+          "queries": 3,
+          "bytes": 421,
+          "status": 200
+        },
+        {
+          "client_ms": 18.481665989384055,
+          "server_ms": 17.934,
+          "db_ms": 2.109,
+          "app_ms": 15.825,
+          "connect_ms": 7.7857,
+          "transaction_ms": 0.4498,
+          "queries": 3,
+          "bytes": 421,
+          "status": 200
+        },
+        {
+          "client_ms": 19.29595903493464,
+          "server_ms": 18.7504,
+          "db_ms": 2.248,
+          "app_ms": 16.5024,
+          "connect_ms": 8.2507,
+          "transaction_ms": 0.4187,
+          "queries": 3,
+          "bytes": 421,
+          "status": 200
+        },
+        {
+          "client_ms": 18.499375029932708,
+          "server_ms": 17.952,
+          "db_ms": 2.187,
+          "app_ms": 15.765,
+          "connect_ms": 7.6663,
+          "transaction_ms": 0.5062,
+          "queries": 3,
+          "bytes": 421,
+          "status": 200
+        },
+        {
+          "client_ms": 18.19720905041322,
+          "server_ms": 17.672,
+          "db_ms": 2.2973,
+          "app_ms": 15.3747,
+          "connect_ms": 7.4927,
+          "transaction_ms": 0.4665,
+          "queries": 3,
+          "bytes": 421,
+          "status": 200
+        }
+      ],
+      "summary": {
+        "client_ms": {
+          "p50": 18.517937511205673,
+          "p95": 19.772542000282556,
+          "max": 20.6554580363445
+        },
+        "server_ms": {
+          "p50": 17.943,
+          "p95": 19.2393,
+          "max": 20.1075
+        },
+        "db_ms": {
+          "p50": 2.2108499999999998,
+          "p95": 2.2973,
+          "max": 4.3739
+        },
+        "app_ms": {
+          "p50": 15.74935,
+          "p95": 16.5024,
+          "max": 16.9791
+        },
+        "connect_ms": {
+          "p50": 7.63045,
+          "p95": 8.3928,
+          "max": 8.9112
+        },
+        "transaction_ms": {
+          "p50": 0.45475,
+          "p95": 0.4885,
+          "max": 0.5062
+        },
+        "queries": [
+          3
+        ]
+      }
+    },
+    "list": {
+      "method": "GET",
+      "path": "/api/appointments",
+      "params": {
+        "page": 1,
+        "size": 20,
+        "status": "booked",
+        "specialist_id": 1
+      },
+      "samples": [
+        {
+          "client_ms": 21.275708044413477,
+          "server_ms": 20.7639,
+          "db_ms": 4.6086,
+          "app_ms": 16.1553,
+          "connect_ms": 7.7896,
+          "transaction_ms": 0.4577,
+          "queries": 3,
+          "bytes": 4522,
+          "status": 200
+        },
+        {
+          "client_ms": 21.597957995254546,
+          "server_ms": 21.0222,
+          "db_ms": 4.8597,
+          "app_ms": 16.1625,
+          "connect_ms": 7.7013,
+          "transaction_ms": 0.4183,
+          "queries": 3,
+          "bytes": 4522,
+          "status": 200
+        },
+        {
+          "client_ms": 22.085207980126143,
+          "server_ms": 21.5033,
+          "db_ms": 4.9205,
+          "app_ms": 16.5829,
+          "connect_ms": 7.9432,
+          "transaction_ms": 0.4539,
+          "queries": 3,
+          "bytes": 4522,
+          "status": 200
+        },
+        {
+          "client_ms": 21.927917026914656,
+          "server_ms": 21.3998,
+          "db_ms": 4.6787,
+          "app_ms": 16.7212,
+          "connect_ms": 8.1348,
+          "transaction_ms": 0.4151,
+          "queries": 3,
+          "bytes": 4522,
+          "status": 200
+        },
+        {
+          "client_ms": 21.877999999560416,
+          "server_ms": 21.3368,
+          "db_ms": 4.8087,
+          "app_ms": 16.5282,
+          "connect_ms": 7.8339,
+          "transaction_ms": 0.4195,
+          "queries": 3,
+          "bytes": 4522,
+          "status": 200
+        },
+        {
+          "client_ms": 22.12495799176395,
+          "server_ms": 21.513,
+          "db_ms": 4.8659,
+          "app_ms": 16.6471,
+          "connect_ms": 7.944,
+          "transaction_ms": 0.4361,
+          "queries": 3,
+          "bytes": 4522,
+          "status": 200
+        },
+        {
+          "client_ms": 22.266541956923902,
+          "server_ms": 21.7197,
+          "db_ms": 5.0147,
+          "app_ms": 16.705,
+          "connect_ms": 8.0229,
+          "transaction_ms": 0.4497,
+          "queries": 3,
+          "bytes": 4522,
+          "status": 200
+        },
+        {
+          "client_ms": 21.77504199789837,
+          "server_ms": 21.14,
+          "db_ms": 4.6645,
+          "app_ms": 16.4754,
+          "connect_ms": 7.8506,
+          "transaction_ms": 0.4078,
+          "queries": 3,
+          "bytes": 4522,
+          "status": 200
+        },
+        {
+          "client_ms": 22.12362497812137,
+          "server_ms": 21.5622,
+          "db_ms": 4.9219,
+          "app_ms": 16.6403,
+          "connect_ms": 7.9055,
+          "transaction_ms": 0.4389,
+          "queries": 3,
+          "bytes": 4522,
+          "status": 200
+        },
+        {
+          "client_ms": 22.297749994322658,
+          "server_ms": 21.7518,
+          "db_ms": 4.8876,
+          "app_ms": 16.8643,
+          "connect_ms": 8.1917,
+          "transaction_ms": 0.4452,
+          "queries": 3,
+          "bytes": 4522,
+          "status": 200
+        },
+        {
+          "client_ms": 21.884792018681765,
+          "server_ms": 21.3575,
+          "db_ms": 4.7428,
+          "app_ms": 16.6147,
+          "connect_ms": 7.917,
+          "transaction_ms": 0.4115,
+          "queries": 3,
+          "bytes": 4522,
+          "status": 200
+        },
+        {
+          "client_ms": 21.81991597171873,
+          "server_ms": 21.2667,
+          "db_ms": 4.6856,
+          "app_ms": 16.581,
+          "connect_ms": 7.8668,
+          "transaction_ms": 0.4323,
+          "queries": 3,
+          "bytes": 4522,
+          "status": 200
+        },
+        {
+          "client_ms": 22.11162500316277,
+          "server_ms": 21.5362,
+          "db_ms": 4.708,
+          "app_ms": 16.8282,
+          "connect_ms": 8.178,
+          "transaction_ms": 0.4465,
+          "queries": 3,
+          "bytes": 4522,
+          "status": 200
+        },
+        {
+          "client_ms": 21.661709004547447,
+          "server_ms": 21.1292,
+          "db_ms": 4.7706,
+          "app_ms": 16.3586,
+          "connect_ms": 7.7038,
+          "transaction_ms": 0.4166,
+          "queries": 3,
+          "bytes": 4522,
+          "status": 200
+        },
+        {
+          "client_ms": 21.940500009804964,
+          "server_ms": 21.405,
+          "db_ms": 4.8666,
+          "app_ms": 16.5385,
+          "connect_ms": 7.8438,
+          "transaction_ms": 0.4358,
+          "queries": 3,
+          "bytes": 4522,
+          "status": 200
+        },
+        {
+          "client_ms": 22.0293749589473,
+          "server_ms": 21.4438,
+          "db_ms": 4.7746,
+          "app_ms": 16.6692,
+          "connect_ms": 8.0725,
+          "transaction_ms": 0.4365,
+          "queries": 3,
+          "bytes": 4522,
+          "status": 200
+        },
+        {
+          "client_ms": 21.609417046420276,
+          "server_ms": 21.1009,
+          "db_ms": 4.7428,
+          "app_ms": 16.3582,
+          "connect_ms": 7.8127,
+          "transaction_ms": 0.3848,
+          "queries": 3,
+          "bytes": 4522,
+          "status": 200
+        },
+        {
+          "client_ms": 21.408041997347027,
+          "server_ms": 20.9143,
+          "db_ms": 4.6411,
+          "app_ms": 16.2732,
+          "connect_ms": 7.6473,
+          "transaction_ms": 0.4388,
+          "queries": 3,
+          "bytes": 4522,
+          "status": 200
+        },
+        {
+          "client_ms": 22.32749998802319,
+          "server_ms": 21.811,
+          "db_ms": 4.9829,
+          "app_ms": 16.8282,
+          "connect_ms": 8.1855,
+          "transaction_ms": 0.4347,
+          "queries": 3,
+          "bytes": 4522,
+          "status": 200
+        },
+        {
+          "client_ms": 22.12420804426074,
+          "server_ms": 21.5907,
+          "db_ms": 4.7499,
+          "app_ms": 16.8408,
+          "connect_ms": 8.2028,
+          "transaction_ms": 0.4061,
+          "queries": 3,
+          "bytes": 4522,
+          "status": 200
+        }
+      ],
+      "summary": {
+        "client_ms": {
+          "p50": 21.93420851835981,
+          "p95": 22.297749994322658,
+          "max": 22.32749998802319
+        },
+        "server_ms": {
+          "p50": 21.4024,
+          "p95": 21.7518,
+          "max": 21.811
+        },
+        "db_ms": {
+          "p50": 4.772600000000001,
+          "p95": 4.9829,
+          "max": 5.0147
+        },
+        "app_ms": {
+          "p50": 16.598799999999997,
+          "p95": 16.8408,
+          "max": 16.8643
+        },
+        "connect_ms": {
+          "p50": 7.91125,
+          "p95": 8.1917,
+          "max": 8.2028
+        },
+        "transaction_ms": {
+          "p50": 0.43525,
+          "p95": 0.4539,
+          "max": 0.4577
+        },
+        "queries": [
+          3
+        ]
+      }
+    },
+    "detail": {
+      "method": "GET",
+      "path": "/api/appointments/1",
+      "params": null,
+      "samples": [
+        {
+          "client_ms": 19.104957988020033,
+          "server_ms": 18.6133,
+          "db_ms": 2.4843,
+          "app_ms": 16.129,
+          "connect_ms": 7.6542,
+          "transaction_ms": 0.4527,
+          "queries": 2,
+          "bytes": 359,
+          "status": 200
+        },
+        {
+          "client_ms": 19.274417019914836,
+          "server_ms": 18.7785,
+          "db_ms": 2.4093,
+          "app_ms": 16.3691,
+          "connect_ms": 7.8642,
+          "transaction_ms": 0.4745,
+          "queries": 2,
+          "bytes": 359,
+          "status": 200
+        },
+        {
+          "client_ms": 19.826125004328787,
+          "server_ms": 19.3182,
+          "db_ms": 2.6037,
+          "app_ms": 16.7145,
+          "connect_ms": 8.2217,
+          "transaction_ms": 0.4707,
+          "queries": 2,
+          "bytes": 359,
+          "status": 200
+        },
+        {
+          "client_ms": 19.820707966573536,
+          "server_ms": 19.3219,
+          "db_ms": 2.5107,
+          "app_ms": 16.8112,
+          "connect_ms": 8.0804,
+          "transaction_ms": 0.5155,
+          "queries": 2,
+          "bytes": 359,
+          "status": 200
+        },
+        {
+          "client_ms": 19.292332988698035,
+          "server_ms": 18.8127,
+          "db_ms": 2.5626,
+          "app_ms": 16.2501,
+          "connect_ms": 7.7072,
+          "transaction_ms": 0.5112,
+          "queries": 2,
+          "bytes": 359,
+          "status": 200
+        },
+        {
+          "client_ms": 19.002332992386073,
+          "server_ms": 18.4983,
+          "db_ms": 2.387,
+          "app_ms": 16.1112,
+          "connect_ms": 7.6173,
+          "transaction_ms": 0.4325,
+          "queries": 2,
+          "bytes": 359,
+          "status": 200
+        },
+        {
+          "client_ms": 19.06474999850616,
+          "server_ms": 18.5825,
+          "db_ms": 2.3489,
+          "app_ms": 16.2336,
+          "connect_ms": 7.7444,
+          "transaction_ms": 0.497,
+          "queries": 2,
+          "bytes": 359,
+          "status": 200
+        },
+        {
+          "client_ms": 19.016124948393553,
+          "server_ms": 18.5228,
+          "db_ms": 2.5502,
+          "app_ms": 15.9726,
+          "connect_ms": 7.5173,
+          "transaction_ms": 0.4453,
+          "queries": 2,
+          "bytes": 359,
+          "status": 200
+        },
+        {
+          "client_ms": 20.0340420124121,
+          "server_ms": 19.3336,
+          "db_ms": 2.786,
+          "app_ms": 16.5475,
+          "connect_ms": 7.9631,
+          "transaction_ms": 0.4512,
+          "queries": 2,
+          "bytes": 359,
+          "status": 200
+        },
+        {
+          "client_ms": 19.401207973714918,
+          "server_ms": 18.9043,
+          "db_ms": 2.4574,
+          "app_ms": 16.447,
+          "connect_ms": 7.9058,
+          "transaction_ms": 0.5002,
+          "queries": 2,
+          "bytes": 359,
+          "status": 200
+        },
+        {
+          "client_ms": 19.642041996121407,
+          "server_ms": 19.0981,
+          "db_ms": 2.5118,
+          "app_ms": 16.5862,
+          "connect_ms": 8.1709,
+          "transaction_ms": 0.432,
+          "queries": 2,
+          "bytes": 359,
+          "status": 200
+        },
+        {
+          "client_ms": 19.712249981239438,
+          "server_ms": 19.1683,
+          "db_ms": 2.5629,
+          "app_ms": 16.6054,
+          "connect_ms": 7.9808,
+          "transaction_ms": 0.5629,
+          "queries": 2,
+          "bytes": 359,
+          "status": 200
+        },
+        {
+          "client_ms": 19.429000036325306,
+          "server_ms": 18.8727,
+          "db_ms": 2.6424,
+          "app_ms": 16.2303,
+          "connect_ms": 7.6819,
+          "transaction_ms": 0.4552,
+          "queries": 2,
+          "bytes": 359,
+          "status": 200
+        },
+        {
+          "client_ms": 19.44283302873373,
+          "server_ms": 18.94,
+          "db_ms": 2.5122,
+          "app_ms": 16.4278,
+          "connect_ms": 8.002,
+          "transaction_ms": 0.4852,
+          "queries": 2,
+          "bytes": 359,
+          "status": 200
+        },
+        {
+          "client_ms": 18.69587495457381,
+          "server_ms": 18.185,
+          "db_ms": 2.3912,
+          "app_ms": 15.7938,
+          "connect_ms": 7.3598,
+          "transaction_ms": 0.439,
+          "queries": 2,
+          "bytes": 359,
+          "status": 200
+        },
+        {
+          "client_ms": 19.01120797265321,
+          "server_ms": 18.55,
+          "db_ms": 2.4817,
+          "app_ms": 16.0683,
+          "connect_ms": 7.6207,
+          "transaction_ms": 0.4616,
+          "queries": 2,
+          "bytes": 359,
+          "status": 200
+        },
+        {
+          "client_ms": 18.43195897527039,
+          "server_ms": 17.9845,
+          "db_ms": 2.4798,
+          "app_ms": 15.5048,
+          "connect_ms": 7.4037,
+          "transaction_ms": 0.4776,
+          "queries": 2,
+          "bytes": 359,
+          "status": 200
+        },
+        {
+          "client_ms": 19.75762500660494,
+          "server_ms": 19.2355,
+          "db_ms": 2.6482,
+          "app_ms": 16.5872,
+          "connect_ms": 8.019,
+          "transaction_ms": 0.5711,
+          "queries": 2,
+          "bytes": 359,
+          "status": 200
+        },
+        {
+          "client_ms": 19.38283402705565,
+          "server_ms": 18.8583,
+          "db_ms": 2.5456,
+          "app_ms": 16.3127,
+          "connect_ms": 8.2272,
+          "transaction_ms": 0.4949,
+          "queries": 2,
+          "bytes": 359,
+          "status": 200
+        },
+        {
+          "client_ms": 18.408208969049156,
+          "server_ms": 17.8968,
+          "db_ms": 2.4581,
+          "app_ms": 15.4387,
+          "connect_ms": 7.6235,
+          "transaction_ms": 0.4341,
+          "queries": 2,
+          "bytes": 359,
+          "status": 200
+        }
+      ],
+      "summary": {
+        "client_ms": {
+          "p50": 19.337583507876843,
+          "p95": 19.826125004328787,
+          "max": 20.0340420124121
+        },
+        "server_ms": {
+          "p50": 18.8355,
+          "p95": 19.3219,
+          "max": 19.3336
+        },
+        "db_ms": {
+          "p50": 2.51125,
+          "p95": 2.6482,
+          "max": 2.786
+        },
+        "app_ms": {
+          "p50": 16.281399999999998,
+          "p95": 16.7145,
+          "max": 16.8112
+        },
+        "connect_ms": {
+          "p50": 7.8043,
+          "p95": 8.2217,
+          "max": 8.2272
+        },
+        "transaction_ms": {
+          "p50": 0.4726,
+          "p95": 0.5629,
+          "max": 0.5711
+        },
+        "queries": [
+          2
+        ]
+      }
+    },
+    "slots": {
+      "method": "GET",
+      "path": "/api/slots",
+      "params": {
+        "start": "2026-10-01T00:00:00Z",
+        "end": "2027-02-04T00:00:00Z",
+        "service_id": 1,
+        "size": 20
+      },
+      "samples": [
+        {
+          "client_ms": 78.65933299763128,
+          "server_ms": 78.0741,
+          "db_ms": 60.0305,
+          "app_ms": 18.0436,
+          "connect_ms": 8.8286,
+          "transaction_ms": 0.7491,
+          "queries": 4,
+          "bytes": 2990,
+          "status": 200
+        },
+        {
+          "client_ms": 77.44904200080782,
+          "server_ms": 76.8545,
+          "db_ms": 58.6227,
+          "app_ms": 18.2318,
+          "connect_ms": 8.6309,
+          "transaction_ms": 0.7134,
+          "queries": 4,
+          "bytes": 2990,
+          "status": 200
+        },
+        {
+          "client_ms": 77.96508294995874,
+          "server_ms": 77.2084,
+          "db_ms": 59.929,
+          "app_ms": 17.2794,
+          "connect_ms": 8.1256,
+          "transaction_ms": 0.6616,
+          "queries": 4,
+          "bytes": 2990,
+          "status": 200
+        },
+        {
+          "client_ms": 83.35408300627023,
+          "server_ms": 82.4784,
+          "db_ms": 59.6933,
+          "app_ms": 22.7851,
+          "connect_ms": 10.4428,
+          "transaction_ms": 0.69,
+          "queries": 4,
+          "bytes": 2990,
+          "status": 200
+        },
+        {
+          "client_ms": 82.1559579926543,
+          "server_ms": 81.1795,
+          "db_ms": 59.0375,
+          "app_ms": 22.142,
+          "connect_ms": 10.1185,
+          "transaction_ms": 0.6952,
+          "queries": 4,
+          "bytes": 2990,
+          "status": 200
+        },
+        {
+          "client_ms": 87.8995829843916,
+          "server_ms": 86.8606,
+          "db_ms": 59.5293,
+          "app_ms": 27.3313,
+          "connect_ms": 11.4299,
+          "transaction_ms": 0.7265,
+          "queries": 4,
+          "bytes": 2990,
+          "status": 200
+        },
+        {
+          "client_ms": 91.21183404931799,
+          "server_ms": 90.3047,
+          "db_ms": 60.352,
+          "app_ms": 29.9528,
+          "connect_ms": 12.1791,
+          "transaction_ms": 0.7302,
+          "queries": 4,
+          "bytes": 2990,
+          "status": 200
+        },
+        {
+          "client_ms": 89.73183302441612,
+          "server_ms": 88.7035,
+          "db_ms": 59.0565,
+          "app_ms": 29.647,
+          "connect_ms": 12.5173,
+          "transaction_ms": 0.7848,
+          "queries": 4,
+          "bytes": 2990,
+          "status": 200
+        },
+        {
+          "client_ms": 87.18316699378192,
+          "server_ms": 86.0096,
+          "db_ms": 59.0203,
+          "app_ms": 26.9893,
+          "connect_ms": 11.2255,
+          "transaction_ms": 0.8128,
+          "queries": 4,
+          "bytes": 2990,
+          "status": 200
+        },
+        {
+          "client_ms": 85.03820799523965,
+          "server_ms": 84.1248,
+          "db_ms": 59.878,
+          "app_ms": 24.2468,
+          "connect_ms": 11.4485,
+          "transaction_ms": 0.663,
+          "queries": 4,
+          "bytes": 2990,
+          "status": 200
+        },
+        {
+          "client_ms": 79.83391702873632,
+          "server_ms": 78.9551,
+          "db_ms": 58.8034,
+          "app_ms": 20.1517,
+          "connect_ms": 9.0403,
+          "transaction_ms": 0.6725,
+          "queries": 4,
+          "bytes": 2990,
+          "status": 200
+        },
+        {
+          "client_ms": 84.27950000623241,
+          "server_ms": 83.2673,
+          "db_ms": 58.8007,
+          "app_ms": 24.4666,
+          "connect_ms": 10.4345,
+          "transaction_ms": 0.6637,
+          "queries": 4,
+          "bytes": 2990,
+          "status": 200
+        },
+        {
+          "client_ms": 84.959166997578,
+          "server_ms": 83.7879,
+          "db_ms": 59.5057,
+          "app_ms": 24.2821,
+          "connect_ms": 10.7855,
+          "transaction_ms": 0.7086,
+          "queries": 4,
+          "bytes": 2990,
+          "status": 200
+        },
+        {
+          "client_ms": 90.10416700039059,
+          "server_ms": 89.1677,
+          "db_ms": 59.4293,
+          "app_ms": 29.7385,
+          "connect_ms": 12.7317,
+          "transaction_ms": 0.728,
+          "queries": 4,
+          "bytes": 2990,
+          "status": 200
+        },
+        {
+          "client_ms": 91.78845898713917,
+          "server_ms": 90.5706,
+          "db_ms": 59.8642,
+          "app_ms": 30.7064,
+          "connect_ms": 12.7585,
+          "transaction_ms": 0.7521,
+          "queries": 4,
+          "bytes": 2990,
+          "status": 200
+        },
+        {
+          "client_ms": 89.23216699622571,
+          "server_ms": 87.9256,
+          "db_ms": 59.6197,
+          "app_ms": 28.3059,
+          "connect_ms": 11.7837,
+          "transaction_ms": 0.7226,
+          "queries": 4,
+          "bytes": 2990,
+          "status": 200
+        },
+        {
+          "client_ms": 89.54187500057742,
+          "server_ms": 88.5333,
+          "db_ms": 60.3579,
+          "app_ms": 28.1754,
+          "connect_ms": 11.8529,
+          "transaction_ms": 0.7495,
+          "queries": 4,
+          "bytes": 2990,
+          "status": 200
+        },
+        {
+          "client_ms": 90.03920800751075,
+          "server_ms": 89.0415,
+          "db_ms": 58.6034,
+          "app_ms": 30.4381,
+          "connect_ms": 13.6911,
+          "transaction_ms": 0.7269,
+          "queries": 4,
+          "bytes": 2990,
+          "status": 200
+        },
+        {
+          "client_ms": 92.82858297228813,
+          "server_ms": 91.5638,
+          "db_ms": 59.4403,
+          "app_ms": 32.1235,
+          "connect_ms": 14.0896,
+          "transaction_ms": 0.7128,
+          "queries": 4,
+          "bytes": 2990,
+          "status": 200
+        },
+        {
+          "client_ms": 87.560250016395,
+          "server_ms": 86.3932,
+          "db_ms": 58.726,
+          "app_ms": 27.6672,
+          "connect_ms": 10.6747,
+          "transaction_ms": 0.7263,
+          "queries": 4,
+          "bytes": 2990,
+          "status": 200
+        }
+      ],
+      "summary": {
+        "client_ms": {
+          "p50": 87.37170850508846,
+          "p95": 91.78845898713917,
+          "max": 92.82858297228813
+        },
+        "server_ms": {
+          "p50": 86.2014,
+          "p95": 90.5706,
+          "max": 91.5638
+        },
+        "db_ms": {
+          "p50": 59.473,
+          "p95": 60.352,
+          "max": 60.3579
+        },
+        "app_ms": {
+          "p50": 27.1603,
+          "p95": 30.7064,
+          "max": 32.1235
+        },
+        "connect_ms": {
+          "p50": 11.3277,
+          "p95": 13.6911,
+          "max": 14.0896
+        },
+        "transaction_ms": {
+          "p50": 0.72445,
+          "p95": 0.7848,
+          "max": 0.8128
+        },
+        "queries": [
+          4
+        ]
+      }
+    },
+    "summary": {
+      "method": "GET",
+      "path": "/api/summary",
+      "params": {
+        "start": "2026-10-01T00:00:00Z",
+        "end": "2027-02-04T00:00:00Z"
+      },
+      "samples": [
+        {
+          "client_ms": 56.18445901200175,
+          "server_ms": 55.351,
+          "db_ms": 31.062,
+          "app_ms": 24.289,
+          "connect_ms": 10.628,
+          "transaction_ms": 0.485,
+          "queries": 3,
+          "bytes": 24875,
+          "status": 200
+        },
+        {
+          "client_ms": 49.57691696472466,
+          "server_ms": 48.9587,
+          "db_ms": 30.2597,
+          "app_ms": 18.699,
+          "connect_ms": 8.7123,
+          "transaction_ms": 0.5416,
+          "queries": 3,
+          "bytes": 24875,
+          "status": 200
+        },
+        {
+          "client_ms": 48.88791695702821,
+          "server_ms": 48.248,
+          "db_ms": 29.9012,
+          "app_ms": 18.3468,
+          "connect_ms": 8.1271,
+          "transaction_ms": 0.5258,
+          "queries": 3,
+          "bytes": 24875,
+          "status": 200
+        },
+        {
+          "client_ms": 49.30720798438415,
+          "server_ms": 48.701,
+          "db_ms": 30.681,
+          "app_ms": 18.0199,
+          "connect_ms": 8.2349,
+          "transaction_ms": 0.5423,
+          "queries": 3,
+          "bytes": 24875,
+          "status": 200
+        },
+        {
+          "client_ms": 51.098041993100196,
+          "server_ms": 50.4925,
+          "db_ms": 30.3513,
+          "app_ms": 20.1412,
+          "connect_ms": 9.337,
+          "transaction_ms": 0.5347,
+          "queries": 3,
+          "bytes": 24875,
+          "status": 200
+        },
+        {
+          "client_ms": 49.677666975185275,
+          "server_ms": 49.0347,
+          "db_ms": 30.5825,
+          "app_ms": 18.4521,
+          "connect_ms": 8.4274,
+          "transaction_ms": 0.5094,
+          "queries": 3,
+          "bytes": 24875,
+          "status": 200
+        },
+        {
+          "client_ms": 49.19587500626221,
+          "server_ms": 48.6062,
+          "db_ms": 30.7,
+          "app_ms": 17.9062,
+          "connect_ms": 7.9572,
+          "transaction_ms": 0.5611,
+          "queries": 3,
+          "bytes": 24875,
+          "status": 200
+        },
+        {
+          "client_ms": 49.66575000435114,
+          "server_ms": 49.1006,
+          "db_ms": 30.5803,
+          "app_ms": 18.5203,
+          "connect_ms": 8.638,
+          "transaction_ms": 0.5213,
+          "queries": 3,
+          "bytes": 24875,
+          "status": 200
+        },
+        {
+          "client_ms": 49.850374984089285,
+          "server_ms": 49.2545,
+          "db_ms": 30.6282,
+          "app_ms": 18.6262,
+          "connect_ms": 8.4346,
+          "transaction_ms": 0.5175,
+          "queries": 3,
+          "bytes": 24875,
+          "status": 200
+        },
+        {
+          "client_ms": 49.93237496819347,
+          "server_ms": 49.3214,
+          "db_ms": 30.9252,
+          "app_ms": 18.3962,
+          "connect_ms": 8.0931,
+          "transaction_ms": 0.514,
+          "queries": 3,
+          "bytes": 24875,
+          "status": 200
+        },
+        {
+          "client_ms": 50.86379102431238,
+          "server_ms": 50.2732,
+          "db_ms": 31.1978,
+          "app_ms": 19.0753,
+          "connect_ms": 8.4471,
+          "transaction_ms": 0.4791,
+          "queries": 3,
+          "bytes": 24875,
+          "status": 200
+        },
+        {
+          "client_ms": 49.73324999446049,
+          "server_ms": 49.0973,
+          "db_ms": 30.1876,
+          "app_ms": 18.9098,
+          "connect_ms": 8.2006,
+          "transaction_ms": 0.5205,
+          "queries": 3,
+          "bytes": 24875,
+          "status": 200
+        },
+        {
+          "client_ms": 50.20733398851007,
+          "server_ms": 49.6178,
+          "db_ms": 30.3924,
+          "app_ms": 19.2254,
+          "connect_ms": 8.3973,
+          "transaction_ms": 0.5062,
+          "queries": 3,
+          "bytes": 24875,
+          "status": 200
+        },
+        {
+          "client_ms": 50.197499978821725,
+          "server_ms": 49.5337,
+          "db_ms": 30.1297,
+          "app_ms": 19.404,
+          "connect_ms": 8.395,
+          "transaction_ms": 0.4933,
+          "queries": 3,
+          "bytes": 24875,
+          "status": 200
+        },
+        {
+          "client_ms": 51.41387501498684,
+          "server_ms": 50.7763,
+          "db_ms": 30.7022,
+          "app_ms": 20.0741,
+          "connect_ms": 8.717,
+          "transaction_ms": 0.4865,
+          "queries": 3,
+          "bytes": 24875,
+          "status": 200
+        },
+        {
+          "client_ms": 49.365665996447206,
+          "server_ms": 48.7603,
+          "db_ms": 30.7289,
+          "app_ms": 18.0314,
+          "connect_ms": 8.616,
+          "transaction_ms": 0.5207,
+          "queries": 3,
+          "bytes": 24875,
+          "status": 200
+        },
+        {
+          "client_ms": 49.9272919842042,
+          "server_ms": 49.2844,
+          "db_ms": 30.7238,
+          "app_ms": 18.5606,
+          "connect_ms": 8.4687,
+          "transaction_ms": 0.4848,
+          "queries": 3,
+          "bytes": 24875,
+          "status": 200
+        },
+        {
+          "client_ms": 49.059417040552944,
+          "server_ms": 48.4081,
+          "db_ms": 30.7492,
+          "app_ms": 17.659,
+          "connect_ms": 8.2306,
+          "transaction_ms": 0.5121,
+          "queries": 3,
+          "bytes": 24875,
+          "status": 200
+        },
+        {
+          "client_ms": 50.80058297608048,
+          "server_ms": 50.1104,
+          "db_ms": 30.9368,
+          "app_ms": 19.1736,
+          "connect_ms": 8.4168,
+          "transaction_ms": 0.5171,
+          "queries": 3,
+          "bytes": 24875,
+          "status": 200
+        },
+        {
+          "client_ms": 74.19829198624939,
+          "server_ms": 73.5605,
+          "db_ms": 41.3851,
+          "app_ms": 32.1753,
+          "connect_ms": 16.8426,
+          "transaction_ms": 1.1586,
+          "queries": 3,
+          "bytes": 24875,
+          "status": 200
+        }
+      ],
+      "summary": {
+        "client_ms": {
+          "p50": 49.888833484146744,
+          "p95": 56.18445901200175,
+          "max": 74.19829198624939
+        },
+        "server_ms": {
+          "p50": 49.26945,
+          "p95": 55.351,
+          "max": 73.5605
+        },
+        "db_ms": {
+          "p50": 30.6905,
+          "p95": 31.1978,
+          "max": 41.3851
+        },
+        "app_ms": {
+          "p50": 18.6626,
+          "p95": 24.289,
+          "max": 32.1753
+        },
+        "connect_ms": {
+          "p50": 8.431000000000001,
+          "p95": 10.628,
+          "max": 16.8426
+        },
+        "transaction_ms": {
+          "p50": 0.5173,
+          "p95": 0.5611,
+          "max": 1.1586
+        },
+        "queries": [
+          3
+        ]
+      }
+    },
+    "create": {
+      "method": "POST",
+      "path": "/api/appointments",
+      "params": null,
+      "samples": [
+        {
+          "client_ms": 22.28287502657622,
+          "server_ms": 21.7383,
+          "db_ms": 5.4632,
+          "app_ms": 16.2751,
+          "connect_ms": 7.7301,
+          "transaction_ms": 0.6328,
+          "queries": 6,
+          "bytes": 195,
+          "status": 201
+        },
+        {
+          "client_ms": 22.743500012438744,
+          "server_ms": 22.2269,
+          "db_ms": 5.6115,
+          "app_ms": 16.6155,
+          "connect_ms": 7.6969,
+          "transaction_ms": 0.6694,
+          "queries": 6,
+          "bytes": 195,
+          "status": 201
+        },
+        {
+          "client_ms": 21.769541956018656,
+          "server_ms": 21.1352,
+          "db_ms": 5.2461,
+          "app_ms": 15.8891,
+          "connect_ms": 7.4437,
+          "transaction_ms": 0.5522,
+          "queries": 6,
+          "bytes": 194,
+          "status": 201
+        },
+        {
+          "client_ms": 22.077292029280216,
+          "server_ms": 21.563,
+          "db_ms": 5.3387,
+          "app_ms": 16.2244,
+          "connect_ms": 7.6884,
+          "transaction_ms": 0.62,
+          "queries": 6,
+          "bytes": 194,
+          "status": 201
+        },
+        {
+          "client_ms": 22.66904100542888,
+          "server_ms": 22.1233,
+          "db_ms": 5.4405,
+          "app_ms": 16.6827,
+          "connect_ms": 7.7359,
+          "transaction_ms": 0.6505,
+          "queries": 6,
+          "bytes": 194,
+          "status": 201
+        },
+        {
+          "client_ms": 22.72970898775384,
+          "server_ms": 22.1984,
+          "db_ms": 5.4888,
+          "app_ms": 16.7096,
+          "connect_ms": 7.8543,
+          "transaction_ms": 0.6129,
+          "queries": 6,
+          "bytes": 193,
+          "status": 201
+        },
+        {
+          "client_ms": 22.993499995209277,
+          "server_ms": 22.4377,
+          "db_ms": 5.481,
+          "app_ms": 16.9567,
+          "connect_ms": 8.0122,
+          "transaction_ms": 0.761,
+          "queries": 6,
+          "bytes": 195,
+          "status": 201
+        },
+        {
+          "client_ms": 23.344457964412868,
+          "server_ms": 22.7949,
+          "db_ms": 5.5093,
+          "app_ms": 17.2856,
+          "connect_ms": 8.2969,
+          "transaction_ms": 0.6717,
+          "queries": 6,
+          "bytes": 195,
+          "status": 201
+        },
+        {
+          "client_ms": 22.54012500634417,
+          "server_ms": 22.0034,
+          "db_ms": 5.2008,
+          "app_ms": 16.8026,
+          "connect_ms": 8.11,
+          "transaction_ms": 0.5943,
+          "queries": 6,
+          "bytes": 195,
+          "status": 201
+        },
+        {
+          "client_ms": 22.867999970912933,
+          "server_ms": 22.3006,
+          "db_ms": 5.3664,
+          "app_ms": 16.9342,
+          "connect_ms": 7.8844,
+          "transaction_ms": 0.8062,
+          "queries": 6,
+          "bytes": 194,
+          "status": 201
+        },
+        {
+          "client_ms": 23.555416031740606,
+          "server_ms": 22.9837,
+          "db_ms": 5.438,
+          "app_ms": 17.5457,
+          "connect_ms": 8.7657,
+          "transaction_ms": 0.6063,
+          "queries": 6,
+          "bytes": 194,
+          "status": 201
+        },
+        {
+          "client_ms": 22.758000006433576,
+          "server_ms": 22.168,
+          "db_ms": 5.3519,
+          "app_ms": 16.8161,
+          "connect_ms": 7.9147,
+          "transaction_ms": 0.6214,
+          "queries": 6,
+          "bytes": 194,
+          "status": 201
+        },
+        {
+          "client_ms": 22.62120897648856,
+          "server_ms": 22.0732,
+          "db_ms": 5.4177,
+          "app_ms": 16.6556,
+          "connect_ms": 7.817,
+          "transaction_ms": 0.7036,
+          "queries": 6,
+          "bytes": 193,
+          "status": 201
+        },
+        {
+          "client_ms": 22.621291980613023,
+          "server_ms": 22.0885,
+          "db_ms": 5.3782,
+          "app_ms": 16.7104,
+          "connect_ms": 7.9498,
+          "transaction_ms": 0.5634,
+          "queries": 6,
+          "bytes": 195,
+          "status": 201
+        },
+        {
+          "client_ms": 23.086458968464285,
+          "server_ms": 22.53,
+          "db_ms": 5.5902,
+          "app_ms": 16.9398,
+          "connect_ms": 8.0317,
+          "transaction_ms": 0.6353,
+          "queries": 6,
+          "bytes": 195,
+          "status": 201
+        },
+        {
+          "client_ms": 24.274625000543892,
+          "server_ms": 23.7011,
+          "db_ms": 5.8297,
+          "app_ms": 17.8713,
+          "connect_ms": 8.4627,
+          "transaction_ms": 1.0203,
+          "queries": 6,
+          "bytes": 195,
+          "status": 201
+        },
+        {
+          "client_ms": 22.451958036981523,
+          "server_ms": 21.9267,
+          "db_ms": 5.3777,
+          "app_ms": 16.549,
+          "connect_ms": 7.9662,
+          "transaction_ms": 0.59,
+          "queries": 6,
+          "bytes": 194,
+          "status": 201
+        },
+        {
+          "client_ms": 22.593250032514334,
+          "server_ms": 22.056,
+          "db_ms": 5.484,
+          "app_ms": 16.5719,
+          "connect_ms": 7.7345,
+          "transaction_ms": 0.6612,
+          "queries": 6,
+          "bytes": 194,
+          "status": 201
+        },
+        {
+          "client_ms": 22.17820897931233,
+          "server_ms": 21.6276,
+          "db_ms": 5.3826,
+          "app_ms": 16.245,
+          "connect_ms": 7.7882,
+          "transaction_ms": 0.6474,
+          "queries": 6,
+          "bytes": 194,
+          "status": 201
+        },
+        {
+          "client_ms": 22.604458034038544,
+          "server_ms": 22.0782,
+          "db_ms": 5.5004,
+          "app_ms": 16.5778,
+          "connect_ms": 7.8339,
+          "transaction_ms": 0.6174,
+          "queries": 6,
+          "bytes": 193,
+          "status": 201
+        }
+      ],
+      "summary": {
+        "client_ms": {
+          "p50": 22.64516649302095,
+          "p95": 23.555416031740606,
+          "max": 24.274625000543892
+        },
+        "server_ms": {
+          "p50": 22.1059,
+          "p95": 22.9837,
+          "max": 23.7011
+        },
+        "db_ms": {
+          "p50": 5.4392499999999995,
+          "p95": 5.6115,
+          "max": 5.8297
+        },
+        "app_ms": {
+          "p50": 16.69615,
+          "p95": 17.5457,
+          "max": 17.8713
+        },
+        "connect_ms": {
+          "p50": 7.869350000000001,
+          "p95": 8.4627,
+          "max": 8.7657
+        },
+        "transaction_ms": {
+          "p50": 0.63405,
+          "p95": 0.8062,
+          "max": 1.0203
+        },
+        "queries": [
+          6
+        ]
+      }
+    },
+    "cancel": {
+      "method": "POST",
+      "path": "/api/appointments/{id}/cancel",
+      "params": null,
+      "samples": [
+        {
+          "client_ms": 19.75375000620261,
+          "server_ms": 19.21,
+          "db_ms": 2.6817,
+          "app_ms": 16.5283,
+          "connect_ms": 7.7175,
+          "transaction_ms": 0.6381,
+          "queries": 4,
+          "bytes": 228,
+          "status": 200
+        },
+        {
+          "client_ms": 19.72545898752287,
+          "server_ms": 19.1033,
+          "db_ms": 2.5274,
+          "app_ms": 16.5759,
+          "connect_ms": 7.9074,
+          "transaction_ms": 0.5888,
+          "queries": 4,
+          "bytes": 228,
+          "status": 200
+        },
+        {
+          "client_ms": 19.50920798117295,
+          "server_ms": 18.9818,
+          "db_ms": 2.683,
+          "app_ms": 16.2988,
+          "connect_ms": 7.5385,
+          "transaction_ms": 0.6327,
+          "queries": 4,
+          "bytes": 227,
+          "status": 200
+        },
+        {
+          "client_ms": 19.689250038936734,
+          "server_ms": 19.1435,
+          "db_ms": 2.6296,
+          "app_ms": 16.514,
+          "connect_ms": 7.7905,
+          "transaction_ms": 0.6162,
+          "queries": 4,
+          "bytes": 227,
+          "status": 200
+        },
+        {
+          "client_ms": 20.098125038202852,
+          "server_ms": 19.5345,
+          "db_ms": 2.7315,
+          "app_ms": 16.803,
+          "connect_ms": 8.0633,
+          "transaction_ms": 0.6359,
+          "queries": 4,
+          "bytes": 227,
+          "status": 200
+        },
+        {
+          "client_ms": 19.373084011022,
+          "server_ms": 18.85,
+          "db_ms": 2.58,
+          "app_ms": 16.27,
+          "connect_ms": 7.5875,
+          "transaction_ms": 0.6662,
+          "queries": 4,
+          "bytes": 226,
+          "status": 200
+        },
+        {
+          "client_ms": 19.65708297211677,
+          "server_ms": 19.1354,
+          "db_ms": 2.572,
+          "app_ms": 16.5634,
+          "connect_ms": 8.0225,
+          "transaction_ms": 0.6271,
+          "queries": 4,
+          "bytes": 228,
+          "status": 200
+        },
+        {
+          "client_ms": 19.200333044864237,
+          "server_ms": 18.6686,
+          "db_ms": 2.5382,
+          "app_ms": 16.1304,
+          "connect_ms": 7.5025,
+          "transaction_ms": 0.661,
+          "queries": 4,
+          "bytes": 228,
+          "status": 200
+        },
+        {
+          "client_ms": 19.365707994438708,
+          "server_ms": 18.8538,
+          "db_ms": 2.4845,
+          "app_ms": 16.3693,
+          "connect_ms": 7.7736,
+          "transaction_ms": 0.5727,
+          "queries": 4,
+          "bytes": 228,
+          "status": 200
+        },
+        {
+          "client_ms": 19.199709000531584,
+          "server_ms": 18.6755,
+          "db_ms": 2.3977,
+          "app_ms": 16.2778,
+          "connect_ms": 7.6626,
+          "transaction_ms": 0.5492,
+          "queries": 4,
+          "bytes": 227,
+          "status": 200
+        },
+        {
+          "client_ms": 18.84241699008271,
+          "server_ms": 18.37,
+          "db_ms": 2.4262,
+          "app_ms": 15.9438,
+          "connect_ms": 7.5685,
+          "transaction_ms": 0.6492,
+          "queries": 4,
+          "bytes": 227,
+          "status": 200
+        },
+        {
+          "client_ms": 18.986667040735483,
+          "server_ms": 18.468,
+          "db_ms": 2.753,
+          "app_ms": 15.715,
+          "connect_ms": 7.3631,
+          "transaction_ms": 0.6539,
+          "queries": 4,
+          "bytes": 227,
+          "status": 200
+        },
+        {
+          "client_ms": 18.69858300779015,
+          "server_ms": 18.1143,
+          "db_ms": 2.4192,
+          "app_ms": 15.695,
+          "connect_ms": 7.2995,
+          "transaction_ms": 0.5999,
+          "queries": 4,
+          "bytes": 226,
+          "status": 200
+        },
+        {
+          "client_ms": 19.047792011406273,
+          "server_ms": 18.5208,
+          "db_ms": 2.5711,
+          "app_ms": 15.9497,
+          "connect_ms": 7.6072,
+          "transaction_ms": 0.6581,
+          "queries": 4,
+          "bytes": 228,
+          "status": 200
+        },
+        {
+          "client_ms": 18.954875005874783,
+          "server_ms": 18.4151,
+          "db_ms": 2.5525,
+          "app_ms": 15.8626,
+          "connect_ms": 7.7173,
+          "transaction_ms": 0.6015,
+          "queries": 4,
+          "bytes": 228,
+          "status": 200
+        },
+        {
+          "client_ms": 18.809833039995283,
+          "server_ms": 18.289,
+          "db_ms": 2.5153,
+          "app_ms": 15.7738,
+          "connect_ms": 7.5755,
+          "transaction_ms": 0.6813,
+          "queries": 4,
+          "bytes": 228,
+          "status": 200
+        },
+        {
+          "client_ms": 18.905374978203326,
+          "server_ms": 18.4182,
+          "db_ms": 2.4667,
+          "app_ms": 15.9515,
+          "connect_ms": 7.6714,
+          "transaction_ms": 0.5914,
+          "queries": 4,
+          "bytes": 227,
+          "status": 200
+        },
+        {
+          "client_ms": 19.068750028964132,
+          "server_ms": 18.5792,
+          "db_ms": 2.5816,
+          "app_ms": 15.9976,
+          "connect_ms": 7.7375,
+          "transaction_ms": 0.6345,
+          "queries": 4,
+          "bytes": 227,
+          "status": 200
+        },
+        {
+          "client_ms": 19.021624990273267,
+          "server_ms": 18.5014,
+          "db_ms": 2.7076,
+          "app_ms": 15.7937,
+          "connect_ms": 7.6005,
+          "transaction_ms": 0.7037,
+          "queries": 4,
+          "bytes": 227,
+          "status": 200
+        },
+        {
+          "client_ms": 18.982207984663546,
+          "server_ms": 18.4385,
+          "db_ms": 2.6808,
+          "app_ms": 15.7576,
+          "connect_ms": 7.5422,
+          "transaction_ms": 0.6891,
+          "queries": 4,
+          "bytes": 226,
+          "status": 200
+        }
+      ],
+      "summary": {
+        "client_ms": {
+          "p50": 19.134229514747858,
+          "p95": 19.75375000620261,
+          "max": 20.098125038202852
+        },
+        "server_ms": {
+          "p50": 18.6239,
+          "p95": 19.21,
+          "max": 19.5345
+        },
+        "db_ms": {
+          "p50": 2.5715500000000002,
+          "p95": 2.7315,
+          "max": 2.753
+        },
+        "app_ms": {
+          "p50": 16.064,
+          "p95": 16.5759,
+          "max": 16.803
+        },
+        "connect_ms": {
+          "p50": 7.6349,
+          "p95": 8.0225,
+          "max": 8.0633
+        },
+        "transaction_ms": {
+          "p50": 0.6352,
+          "p95": 0.6891,
+          "max": 0.7037
+        },
+        "queries": [
+          4
+        ]
+      }
+    }
+  },
+  "counts_after": {
+    "accounts": 1,
+    "services": 30,
+    "specialists": 200,
+    "slots": 200000,
+    "appointments": 50021
+  },
+  "indexes": [
+    {
+      "tablename": "accounts",
+      "indexname": "accounts_pkey",
+      "indexdef": "CREATE UNIQUE INDEX accounts_pkey ON karina_plokhuta.accounts USING btree (id)"
+    },
+    {
+      "tablename": "appointments",
+      "indexname": "appointments_pkey",
+      "indexdef": "CREATE UNIQUE INDEX appointments_pkey ON karina_plokhuta.appointments USING btree (id)"
+    },
+    {
+      "tablename": "services",
+      "indexname": "services_pkey",
+      "indexdef": "CREATE UNIQUE INDEX services_pkey ON karina_plokhuta.services USING btree (id)"
+    },
+    {
+      "tablename": "slots",
+      "indexname": "slots_pkey",
+      "indexdef": "CREATE UNIQUE INDEX slots_pkey ON karina_plokhuta.slots USING btree (id)"
+    },
+    {
+      "tablename": "specialists",
+      "indexname": "specialists_pkey",
+      "indexdef": "CREATE UNIQUE INDEX specialists_pkey ON karina_plokhuta.specialists USING btree (id)"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "project": "karina_plokhuta",
+  "measured_server_sources_unchanged": true,
+  "volumes": {
+    "small": {
+      "operations": 9,
+      "samples": 180,
+      "statistics_recomputed": true,
+      "statuses_and_query_counts_valid": true
+    },
+    "working": {
+      "operations": 9,
+      "samples": 180,
+      "statistics_recomputed": true,
+      "statuses_and_query_counts_valid": true
+    }
+  }
+}
